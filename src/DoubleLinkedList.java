@@ -1,5 +1,5 @@
 public class DoubleLinkedList {
-    private Node backend; //Este es el ultimo nodo de la lista
+    private Node backend; //Backend hace referencia al ultimo nodo de la lista
     private Node head;
     private int size;
 
@@ -63,6 +63,9 @@ public class DoubleLinkedList {
         return this.head;
     }
 
+    /**
+     * Método que recorre la lista y la imprime combinandose con el método toString()
+     */
     public void show() {
         Node node = head;
         while (node != null) {

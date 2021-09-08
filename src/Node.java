@@ -29,7 +29,10 @@ public class Node {
 
     public Node getPreceding(){return this.preceding;}
 
-    //Permite visualizar la lista de una forma organizada
+    /**
+     *Permite transformar los nodos a string
+     * para visualizar la lista de una forma organizada, es un complemento del método show()
+     */
     public String toString(){
         String sNode = "[ " + this.getData() + " ] -->";
         return sNode;
