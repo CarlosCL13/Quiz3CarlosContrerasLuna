@@ -44,3 +44,7 @@ public class Queue {
     }
 }
 
+/**
+ * Los resultados fueron los esperados, ya que gracias a la
+ * lista doblemente enlazada y a la clase Nodo se pudo realizar lo indicado en las instrucciones del Quiz.
+ */
